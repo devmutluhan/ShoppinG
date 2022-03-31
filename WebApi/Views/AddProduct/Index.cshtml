@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" rel="stylesheet">
+    <title>Ürün Ekle</title>
+</head>
+<body>
+    <header>
+        <label>
+            <a href="/"><h1>ShoppinG</h1></a> <br><br>
+            <a href="Customer" class="btn">Müşteriler</a>
+            <a href="Product" class="btn">Ürünler</a>
+        </label>
+    </header>
+    <section>
+        <div class="add-container">
+            <div class="input-container">
+                <input type="text" placeholder="Ürün Adı Giriniz" id="nameInput" >
+                <input type="text" placeholder="Fiyat Giriniz" id="priceInput">
+                <input type="text" placeholder="Stok Sayısı Giriniz" id="stockInput">
+                <input type="text" placeholder="Resim Urlsi Giriniz" id="imageInput">
+                <select id="categoryInput">
+                    <option id="0">Kategori Seçiniz</option>
+                </select>
+                <br>
+                <button class="addButton" type="button"></button>
+            </div>
+        </div>
+    </section>
+        <script src="~/js/adminAddproduct.js"></script>
+</body>
+</html>

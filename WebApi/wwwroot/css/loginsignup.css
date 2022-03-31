@@ -1,0 +1,47 @@
+﻿h1 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: rgb(44, 39, 39);
+}
+
+.login-container {
+    margin-left: 33%;
+    width: 475px;
+    height: 375px;
+    border: 2px solid rgb(109, 109, 109);
+    border-radius: 15px;
+}
+
+.input-container input {
+    width: 84%;
+    background-color: bisque;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.input-container button {
+    width: 91%;
+    margin: 20px;
+    font-family: 'Cinzel', serif;
+    color: black;
+    padding: 15px;
+    background-color: beige;
+    cursor: pointer;
+}
+
+    .input-container button:hover {
+        background-color: coral;
+        border-color: coral;
+    }
+
+.sign-container {
+    margin-left: 33%;
+    width: 475px;
+    height: 645px;
+    border: 2px solid rgb(109, 109, 109);
+    border-radius: 15px;
+}

@@ -1,0 +1,127 @@
+﻿body {
+    background-color: beige;
+}
+
+header {
+    height: 150px;
+    background-color: rgb(157, 253, 221);
+}
+
+    header img {
+        height: 150px;
+        margin-left: 100px;
+        width: 15%;
+        float: left;
+    }
+
+    header h1 {
+        font-family: 'Cinzel', serif;
+        font-size: 50px;
+        color: rgb(44, 39, 39);
+        margin-top: 0px;
+        float: left;
+        margin-left: 180px;
+        padding-top: 40px;
+    }
+
+    header .btn {
+        float: right;
+        margin-right: 30px;
+        padding: 30px;
+        color: purple;
+        background-color: bisque;
+        font-family: 'Cinzel', serif;
+        text-decoration: none;
+        cursor:pointer;
+    }
+
+        header .btn:hover {
+            background-color: rgb(252, 214, 168);
+        }
+
+.nav-container {
+    height: 40px;
+    width: 100%;
+    float: left;
+}
+
+    .nav-container span {
+        padding:0px 88px 19px;
+        border: none;
+        background-color: beige;
+        margin-left: 2px;
+        font-family: 'Cinzel', serif;
+        cursor: pointer;
+    }
+
+        .nav-container span:hover {
+            background-color: rgb(207, 231, 253)
+        }
+
+.product {
+    margin-top: 15px;
+    width: 20%;
+    float:left;
+    height: 400px;
+}
+
+    .item {
+        list-style-type: none;
+        text-align: center;
+        height:360px;
+    }
+    
+    .footer {
+        height: 350px;
+        width:100%;
+        background-color:black;
+    }
+
+.basket-container h1{
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    color: rgb(44, 39, 39);
+    margin-top: 0px;
+    margin-left: 380px;
+    padding-top: 40px;
+}
+.basket-container div{
+    margin: 1%;
+    width:97%;
+    height:150px;
+    border: 2px solid black;
+}
+
+.basket-container img {
+    height: 150px;
+    width: 180px;
+    margin-left:50px;
+    float: left;
+}
+.basket-container h3 {
+    padding: 5px 550px 5px 50px; 
+    width:500px;
+    float:left;
+}
+.basket-container span{
+    margin-top:48px;
+    margin-right:40px;
+    float:right;
+    cursor:pointer;
+}
+.basket-container span :hover{
+    color:red;
+}
+
+.addBasket {
+    background-color: rgb(157, 253, 221);
+    font-family: 'Cinzel', serif;
+    cursor: pointer;
+    padding:8px;
+    border-collapse:collapse;
+    border-radius:5px;
+}
+
+.addBasket:hover{
+    background-color:orange;
+}
